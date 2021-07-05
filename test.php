@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>title</title> 
+<title>Test</title> 
 
 
 <!-- unnecessary -->
@@ -39,8 +39,6 @@ foreach($tempArr as $item){
 
 <link href="/assets/style.css?<?=date('his')?>" rel="stylesheet" />
 
-<link href="test.css?<?=date('his')?>" rel="stylesheet" />
-
 <div class="root">
 
 	<div class="hp1">
@@ -54,7 +52,8 @@ foreach($tempArr as $item){
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous">
+</script>
 
 <script src="/assets/script.js?<?=date('his')?>"></script>
 
