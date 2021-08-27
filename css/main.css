@@ -314,14 +314,8 @@ p {
     display: none;
 }
  
-@media (max-width: 768px) {
-    .header-mobile {
-        display: block;
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-    }
-
+@media (max-width: 994px) {
+    
     .value-container-cards {
         flex-direction: column;
         align-items: center;
@@ -330,6 +324,18 @@ p {
     .game-container-cards {
         flex-direction: column;
         align-items: center;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .header-mobile {
+        display: block;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
     }
 
     .btn-item:first-child {
@@ -347,9 +353,6 @@ p {
         margin-top: 23px;
     }
 
-    .btn {
-        margin-top: 20px;
-    }
 
     .slider-item {
         padding: 0 60px;
@@ -390,6 +393,14 @@ p {
         width: 100%;
         margin-right: 0px; 
         height: 100%;
+    }
+
+    .card-item img {
+        height: 225px;
+    }
+
+    .card-game-item img {
+        height: 225px;
     }
 
     .card-game-item:nth-child(2) {
