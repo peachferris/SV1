@@ -49,7 +49,7 @@ svg {
 }
 
 .games-container {
-    background-image: url("/assets/background/bg-one.jpg");
+    background-image: url("../../assets/background/bg-one.jpg");
     background-size: cover;
 }
 
@@ -63,7 +63,7 @@ svg {
 }
 
 .lab-container {
-    background-image: url("/assets/background/bg-2.jpg");
+    background-image: url("../../assets/background/bg-2.jpg");
     height: 480px;
     background-size: cover;
 }
@@ -221,7 +221,7 @@ p {
 
 .slider-item {
     color: #fff;
-    background-image: url("/assets/background/bg-slide.jpg");
+    background-image: url("../../assets/background/bg-slide.jpg");
     height: 644px;
     padding: 0 100px;
 }
