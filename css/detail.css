@@ -179,7 +179,7 @@ img {
 
 .game-container {
     height: 550px;
-    background-image: url("/assets/background/bg-one.jpg");
+    background-image: url("assets/background/bg-one.jpg");
 }
 
 
